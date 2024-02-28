@@ -1,7 +1,7 @@
 # PYTHON Tuple data type
 # Tuples are ordered and immutable. 
 # They can contain elements of any data type, including other tuples. 
-
+'''
 myTuple = ('ABCD', 56,  'Nairobi', 3+7j, 70.2)
 # print(myTuple)
 # slicing tuple
@@ -10,4 +10,21 @@ myTuple = ('ABCD', 56,  'Nairobi', 3+7j, 70.2)
 # print(myTuple * 3)
 tinyTuple = 'Wed', 'Mon', 'Fri', 34.7
 print(myTuple + tinyTuple)
+'''
+
+# tuple within a tuple
+new = (
+    [1, 2, 3], 
+    'Kenya', 'Cool', 
+    ('a', 'b', 'c', 'd', 'e', 'f')
+)
+print(new)
+print(len(new))
+print(new[2])
+
+
+
+
+
+
 
