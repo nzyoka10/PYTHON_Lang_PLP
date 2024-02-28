@@ -17,7 +17,9 @@ print('\n')
 # accessing the list items
 #print(list[0])   # accesses first item of the list (index starts from 0)
 print(list[2:3]) 
-print(list + tinyList)
+# print(list + tinyList)
+print(tinyList * 8)
+
 
 
 
