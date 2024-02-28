@@ -6,6 +6,7 @@
 # print(len(myValues))
 
 #Creating dictionaries
+''' 
 dict1 = {
     'color': 'blue', 
     'shape': 'square', 
@@ -33,6 +34,23 @@ user = {
 }
 #print(type(user))
 print("User information: ", user)
+''' 
+
+# more of python dictionaries
+studentData = {
+    "Name" : "Johnston Kiio",
+    "Course" : "BBOIT",
+    "Department" : "Business & Computing",
+    "Status" : "Completed",
+    "year" : 2024    
+}
+print(studentData)
+print(type(studentData))
+print(studentData["Name"]) # prints value of the KEY name --> "Johnston Kiio"
+print(studentData.keys()) # prints the keys in the dictionary
+print(studentData.values()) # prints the values in the dictionary
+print(len(studentData))   # returns the number of items in a dictionary
+
 
 
 
