@@ -43,6 +43,9 @@ print(product)
 # LIST     type --> ordered and changeable collection of items. It's like an array in other programming languages.
 # DICTIONARY type --> DICTIONARY is collection of key-value pairs. It's like a list but more flexible.
 
+''' 
+# data type example below 
+
 planets_in_solar_system = 8 # int data type
 print(planets_in_solar_system)
 print(type(planets_in_solar_system))
@@ -58,6 +61,34 @@ print(type(is_python_awesome))
 shuttle_landed_on_the_moon = "Apollo 11" #string
 print(shuttle_landed_on_the_moon)
 print(type(shuttle_landed_on_the_moon))
+
+'''
+
+# PYTHON Operators
+# Operators: they are used to perform operations on variables.
+# <left side> <operator> <right side>
+
+# Arithmetic operators : + , - , * , / , % , **
+# Comparison operators  : == , != , > , < , >= , <=
+# Logical operators     : and , or , not
+# Assignment operators  : = , += , -= , *= , //= , %= , **=
+
+# Dates in python
+# from datetime import date
+# today = date.today()
+# print(today)
+
+# Data type conversion
+age = input("Enter your age: ")
+age = bool(age) # convert string to boolean
+print(age)
+
+
+salary = input("Enter your salary: ")
+salary = float(salary) # convert string to float
+print(salary)
+
+
 
 
 
