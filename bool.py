@@ -12,7 +12,7 @@ Less than or equal to: a <= b
 Greater than: a > b
 Greater than or equal to: a >= b
 
-''' 
+
 
 # test this expression
 k = 24
@@ -42,6 +42,7 @@ else:
     
     
 # Combine if, elif, and else statements
+    ''' 
     ''' 
     if test_expression:
     # statement(s) to be run
