@@ -1,8 +1,8 @@
 # String data type
 # literal assignment
 
-first = "Kenya"
-last = "Kwanza"
+# first = "Kenya"
+# last = "Kwanza"
 
 # print(type(pizza))
 # print(type(first) == str)
@@ -21,16 +21,16 @@ last = "Kwanza"
 
 # String Concatenation
 # concatenating strings using the + operator or the join() method.
-full_name =  first + " " + last
-print(full_name, "\n")
+# full_name =  first + " " + last
+# print(full_name, "\n")
 
 # Casting a number to string
-decade = str(1980)
-print(type(decade))
-print(decade)
+# decade = str(1980)
+# print(type(decade))
+# print(decade)
 
-statement = "I like rock music from the " + decade + "s. \n"
-print(statement)
+# statement = "I like rock music from the " + decade + "s. \n"
+# print(statement)
 
 # Using f-string formatting (Python version 3.6 and above)
 # formatted_statement = f"I like rock music from the {decade}s."
@@ -45,7 +45,30 @@ I was just checking in.
                 All good!
 '''
 
-print(multiline)
+# print(multiline)
+
+# print(3-5+56)
+
+# STRING Methods
+# first = "Kenya"
+# print(first.lower())
+# print(first.upper())
+# print(first)
+
+# print(multiline.title())
+# print(multiline.replace("good", "ok"))
+# print(multiline)
+
+# print(len(multiline.strip()))
+
+# Build a menu
+title = "menu".upper()
+print( "\n", title.center(20, "="))
+print("Coffee".ljust(16, ".") + "Kes. 50".rjust(4))
+print("Cup cake".ljust(16, ".") + "Kes. 70".rjust(4))
+print("Tea ".ljust(16, ".") + "Kes. 60".rjust(4))
+
+
 
 
 
