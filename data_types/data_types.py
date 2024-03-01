@@ -37,20 +37,20 @@
 # print(formatted_statement)
 
 # Multiple lines string
-multiline = ''' 
-Hey, how are you?
+# multiline = ''' 
+# Hey, how are you?
 
-I was just checking in.
+# I was just checking in.
 
-                All good!
-'''
+#                 All good!
+# '''
 
 # print(multiline)
 
 # print(3-5+56)
 
 # STRING Methods
-# first = "Kenya"
+first = "Kenya"
 # print(first.lower())
 # print(first.upper())
 # print(first)
@@ -67,6 +67,22 @@ print( "\n", title.center(20, "="))
 print("Coffee".ljust(16, ".") + "Kes. 50".rjust(4))
 print("Cup cake".ljust(16, ".") + "Kes. 70".rjust(4))
 print("Tea ".ljust(16, ".") + "Kes. 60".rjust(4))
+
+print("")
+
+# string index values
+print(first[0]) # first value of a string
+print(first[-1]) # prints last value position
+print(first[:3]) # range of 0 : 3 characters position
+print(first[3:]) # from the third to last 
+
+# Some methods return boolean data
+print(first.startswith("K"))
+print(first.endswith("F"))
+
+
+
+
 
 
 
