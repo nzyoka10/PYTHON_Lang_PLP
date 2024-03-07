@@ -175,31 +175,31 @@
 
 # ? Example 2
 # ? use --- Break statement
-j = 10
-while j > 0:
-    if (j!=5):
-        print(j)
-    # if (j % 2 == 0):
-    #     print(j, j % 2 == 0)
-    else:
-        break
-    j -= 1
+# j = 10
+# while j > 0:
+#     if (j!=5):
+#         print(j)
+#     # if (j % 2 == 0):
+#     #     print(j, j % 2 == 0)
+#     else:
+#         break
+#     j -= 1
 # print("Outside Loop")
 
 
 
 
 
-# # continue keyword - used to skip the rest of the code inside the loop and jump directly to next iteration.
+# * continue keyword - used to skip the rest of the code inside the loop and jump directly to next iteration.
 # # !   Syntax
-# # !       continue [loopname]
+# # !       continue [loop_name]
 
 # # !   Example with Continue Keyword
-# for j in range(5):
-#     if j == 3:
-#         continue      # Skipping the rest of the code inside this 'if' block and going to next iteration.
-#     print(j, end=' ')
-# print()               # Printing a new line  
+for j in range(5):
+    if j == 3:
+        continue      # Skipping the rest of the code inside this 'if' block and going to next iteration.
+    print(j, end=' ')
+print()               # Printing a new line  
 
 
 # # Nested Loops or Control Flow - When one loop is inside another loop.
