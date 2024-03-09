@@ -36,6 +36,40 @@
 #     count += 1                          # Increasing the value of count by 1 after each iteration
 # print("\n\nLoop Ended")                # This message will be printed once the loop ends
 
+# ! --___ Loop controls :: Break and Continue
+# * Break : The break statement is used to exit from the loop prematurely. 
+#           When the loop encounters a break statement, it immediately terminates and transfers control outside the loop.
+
+# ~ Continue : The continue statement is used to skip the rest of the code inside the loop for a particular iteration and jump directly to the next iteration
+# ~ Continue : The continue statement is used to skip the rest of the code inside the loop for this single iteration only.
+
+# ^ Example 1 : Using for Loop:
+# colors = ["Blue", "Red", "Green", "White", "Yellow", "Black"]
+# color_i_want = "White"
+
+# for color in colors:
+#     if color == color_i_want:           
+#         print("\n\n The color i want is:->  ", color_i_want)
+#         break
+    
+#     print("\n Other colors:  ", color)
+# print("Color Loop Ended")
+
+# &  Example 2 : Using While Loop
+colors = ["Blue", "Red", "Green", "White", "Yellow", "Black"]
+color_i_want = "Green"
+
+length = len(colors)
+count = 0
+
+while count < length:
+    if colors[count] == color_i_want:           
+        print("\n\n The color i want is:->  ", color_i_want)
+        break
+    count += 1
+    
+    print("\n Other colors:  ", colors)
+# print("Color Loop Ended")
 
 
 
