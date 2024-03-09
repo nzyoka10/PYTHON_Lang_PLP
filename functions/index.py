@@ -21,17 +21,18 @@ def sum(num1, num2):
     
     # check if num1 and num2 are of type <int>
     if (type(num1) is not int or type(num2) is not int):
-        return
+        return 0
     
     # return sum of num1 and num2 if : type == int
     return num1 + num2
 
 # total = sum(2, 4)
 # total = sum(12, 14)
-total = sum('32', 45)
+# total = sum("2", 45)
+total = sum(3, 45)
+
 
 print("Total: ", total)
-
 
 
 
