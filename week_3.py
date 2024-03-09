@@ -47,6 +47,17 @@
 # else:                           # anything above 30
 #     print("Oldster!!! , Number is: -->", num)
 
+# ! Example 2
+weekday = False
+weekday = True
+
+if weekday:
+    print("wake up at 6:30")
+else:
+    print("Sleep in")
+
+
+
 
 
 
