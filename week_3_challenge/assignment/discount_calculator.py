@@ -10,7 +10,7 @@
     #*              Returns:
     #*               - The final price after applying the discount, or the original price if no discount is applied.
 """
-
+# function calculate_discount
 def calculate_discount(price, discount_percent):
     
     # Check if the discount percentage is 20% or higher
