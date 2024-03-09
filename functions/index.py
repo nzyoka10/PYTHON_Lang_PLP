@@ -34,6 +34,8 @@ total = sum(3, 45)
 
 print("Total: ", total)
 
+# print(type(sum))
+# print(isinstance(sum, float))
 
 
 
