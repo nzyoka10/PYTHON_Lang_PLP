@@ -13,9 +13,9 @@
 '''
 print("\n  -----_____ SCHOOL GRADING SYSTEM_____------\n")
 score = input("Enter mark score: ")
-grade = ''
+# grade = ''
 
-if int(score) > 90:
+if int(score) >= 90:
     grade = 'A'
 elif int(score) >= 80:
     grade = 'B'
@@ -26,6 +26,6 @@ elif int(score) >= 60:
 else:
     grade = 'F'
 
-print("Mark score is: ", score)
-print("Your grade is: ", grade)
+print("\t Mark score is: ", score)
+print("\t Your grade is: ", grade)
 
