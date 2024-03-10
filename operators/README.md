@@ -8,13 +8,10 @@ This README file provides an overview of the different types of operators availa
 
 ### Table of Contents
 
-1. [Arithmetic Operators](#arithmetic-operators)
-2. [Comparison Operators](#comparison-operators)
-3. [Logical Operators](#logical-operators)
-4. [Assignment Operators](#assignment-operators)
-5. [Membership Operators](#membership-operators)
-6. [Identity Operators](#identity-operators)
-7. [Bitwise Operators](#bitwise-operators)
+- [Python Operators](#python-operators)
+  - [Table of Contents](#table-of-contents)
+    - [Arithmetic Operators ](#arithmetic-operators-)
+    - [Comparison Operators](#comparison-operators)
 
 #### Arithmetic Operators <a name="arithmetic-operators"></a>
 
@@ -29,15 +26,18 @@ Also, are used to perform mathematical operations like addition, subtraction, mu
 - `//` Floor Division - *division that results into whole number* adjusted to the left in the number line
 - `**` Exponentiation - ``raises the left operand`` **to the** `power of the right operand`
 
-```python
-a = 10
-b = 3
+#### Comparison Operators
+- Used to compare two values. 
+- They return True or False based on the comparison result.
 
-print(a + b)  # Output: 13
-print(a - b)  # Output: 7
-print(a * b)  # Output: 30
-print(a / b)  # Output: 3.3333333333333335
-print(a % b)  # Output: 1
-print(a // b) # Output: 3
-print(a ** b) # Output: 1000
-```
+|Operator | Meaning                   | Example     | Result |
+|---------|----------------------------|--------------|--------|
+| ==      | Equal To                                     | `3==2+1`  | False  |
+| !=      | Not equal To                | `3!=2+1`   | True   |
+| >       | Greater Than                             | `4>3`        | True   |
+| <       | Less Than                                                            | `6<9`         | True   |
+| >=      | Greater than or Equal To               | `5>=2`                   | True   |
+| <=      | Less Than or Equal To              | `8<=8`                                          | True   |
+| <>      | NotEqualTo(NotEqual operator)           | `3<>2+1`                                     | True   |
+| ==/!=/= | Equality / Inequality            | `3==2+1` , `3!=2+1` | False,True |   
+
