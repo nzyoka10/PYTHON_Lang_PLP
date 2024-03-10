@@ -14,6 +14,8 @@ This README file provides an overview of the different types of operators availa
     - [Logical Operators](#logical-operators)
       - [Figure 1](#figure-1)
     - [Assignment Operators](#assignment-operators)
+    - [Membership Operators](#membership-operators)
+        - [Figure 2](#figure-2)
 
 #### Arithmetic Operators <a name="arithmetic-operators"></a>
 
@@ -71,5 +73,15 @@ Assignment operators are used to assign values to variables -->
 | //=     | Integer division and assignment | `x//=3` | None |
 | %=      | Modulus and assignment | `x%=3` | None |
 | **=     | Exponentiation and assignment | `x**=3` | None |
+
+#### Membership Operators
+- Membership operators are used to test if a sequence is presented in an object.
+- 
+###### Figure 2
+|Operator | Meaning                   | Example     | Result |
+|---------|----------------------------|--------------|--------|
+| In      | Returns True if element exists in the sequence (list, tuple, set). | `'a'in 'abc'` | True   | |
+| Not In  | Returns True if element does not exist in the sequence.             |`'b'not in 'abc'` | True   | |
+
 
 
