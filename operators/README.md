@@ -13,6 +13,7 @@ This README file provides an overview of the different types of operators availa
     - [Comparison Operators](#comparison-operators)
     - [Logical Operators](#logical-operators)
       - [Figure 1](#figure-1)
+    - [Assignment Operators](#assignment-operators)
 
 #### Arithmetic Operators <a name="arithmetic-operators"></a>
 
@@ -53,4 +54,22 @@ Also, are used to perform mathematical operations like addition, subtraction, mu
 | OR      | Return True if either is True | `x>5 or y<7`   | True  |
 | NOT     | Return True if expression is False | `not x>5`   | True  |
 
-**`Note:`** python provides three logical operators: `and`, `or`, and `not`.    
+**`Note:`** python provides three logical operators: `and`, `or`, and `not`.
+
+<!-- Assignment Operators
+Assignment operators are used to assign values to variables -->
+#### Assignment Operators
+- Assignment operators are used to assign values to variables.
+
+|Operator | Meaning                   | Example     |
+|---------|----------------------------|--------------|
+| =       | Simple assignment          | `x=3`       | None   |
+| +=      | Addition and assignment       | `x+=3`      | None   |
+| -=      | Subtraction and assignment  | `x-=3`      | None   |
+| *=      | Multiplication and assignment | `x*=3`      | None   |
+| /=      | Division and assignment     | `x /=3` | None |
+| //=     | Integer division and assignment | `x//=3` | None |
+| %=      | Modulus and assignment | `x%=3` | None |
+| **=     | Exponentiation and assignment | `x**=3` | None |
+
+
