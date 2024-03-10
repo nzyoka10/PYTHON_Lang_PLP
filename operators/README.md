@@ -1,8 +1,10 @@
 ## Python Operators
 
-Operators in Python are symbols that perform operations on variables and values. Python provides a variety of operators to carry out tasks such as arithmetic operations, comparison, logical operations, assignment, membership testing, identity testing, and bitwise operations. Understanding these operators is essential for effective programming in Python.
+- Operators in Python are symbols that perform operations on variables and values.
+- Python provides a variety of operators to carry out tasks such as `arithmetic operations`, comparison, `logical operations`, assignment, `membership testing`, ``identity testing``, and `bitwise operations`. 
+- Understanding these operators is essential for effective programming in Python.
 
-This README file aims to provide an overview of the different types of operators available in Python and their usage.
+This README file provides an overview of the different types of operators available in Python and their usage.
 
 ### Table of Contents
 
