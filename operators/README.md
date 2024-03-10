@@ -16,6 +16,8 @@ This README file provides an overview of the different types of operators availa
     - [Assignment Operators](#assignment-operators)
     - [Membership Operators](#membership-operators)
         - [Figure 2](#figure-2)
+    - [Identity Operators](#identity-operators)
+        - [Figure 3](#figure-3)
 
 #### Arithmetic Operators <a name="arithmetic-operators"></a>
 
@@ -83,5 +85,17 @@ Assignment operators are used to assign values to variables -->
 | In      | Returns True if element exists in the sequence (list, tuple, set). | `'a'in 'abc'` | True   | |
 | Not In  | Returns True if element does not exist in the sequence.             |`'b'not in 'abc'` | True   | |
 
+#### Identity Operators
+- Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location.
 
+###### Figure 3
+|Operator | Meaning                   | Example     | Result |
+|---------|----------------------------|--------------|--------|
+| `==`      | Returns **`True`** if both operands refer to the **`same object`**. | `x == y`    | True   |
+| `is`      | Returns **`True`** if both operands **`refer to the exact same object`**. | `x is y` | True   |
+| `is not` | Returns **`True`** if both operands do not refer to the exact same object. | `x is not y` | True   |
+
+
+is Returns True if both variables are the same object
+is not Returns True if both variables are not the same object
 
