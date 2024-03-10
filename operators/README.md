@@ -18,6 +18,8 @@ This README file provides an overview of the different types of operators availa
         - [Figure 2](#figure-2)
     - [Identity Operators](#identity-operators)
         - [Figure 3](#figure-3)
+    - [Bitwise Operators](#bitwise-operators)
+        - [Figure 4](#figure-4)
 
 #### Arithmetic Operators <a name="arithmetic-operators"></a>
 
@@ -96,6 +98,34 @@ Assignment operators are used to assign values to variables -->
 | `is not` | Returns **`True`** if both operands do not refer to the exact same object. | `x is not y` | True   |
 
 
-is Returns True if both variables are the same object
-is not Returns True if both variables are not the same object
+#### Bitwise Operators
+- Bitwise operators perform bit-level manipulation operations.
+
+###### Figure 4
+
+|Operator | Meaning                   | Example     | Result |
+|---------|----------------------------|--------------|--------|
+| `&, and`      | Performs a bitwise AND operation on each pair of bits from two operands. | `7 & 5`     | 5        |
+| **`or, \|`** | Performs a bitwise OR operation on each pair of bits from two operands. | `(5 &#187; 3) == 5 \| 3` | True   |
+| **`^, XOR`** | Performs a bitwise XOR operation on each pair of bits from two operands. | `(10) ^ (4)` | True |
+| **`~, not`** | bitwise NOT | Bitwise OR operation on each pair of bits from two operands. | `~(5)` | -6 |
+|**`<<, shift left`** | Shift left; zeroes are shifted into the vacant positions from the right. | `7 << 2` | 56 |
+| **`>>, shift right`** | Shift right;  zeroes are filled into the vacant places from the left. | `9 >> 2` | 2 |
+
+```python
+a = 60  # 0011 1100
+b = 13  # 0000 1101
+
+print(a & b)  # Output: 12 (0000 1100)
+print(a | b)  # Output: 61 (0011 1101)
+print(a ^ b)  # Output: 49 (0011 0001)
+print(~a)     # Output: -61 (1100 0011)
+print(a << 2) # Output: 240 (1111 0000)
+print(a >> 2) # Output: 15 (0000 1111)
+
+```
+
+
+
+
 
