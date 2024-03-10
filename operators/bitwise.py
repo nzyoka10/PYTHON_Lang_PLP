@@ -34,32 +34,15 @@ print("Bitwise NOT (a): ", bitwise_not, " (%d)" % bitwise_not)
 print("Left Shift: ", left_shift, " (%d)" % left_shift)
 print("Right Shift: ", right_shift, " (%d)\n" % right_shift)
 
-#** Exercise - Write a program that converts binary to decimal and vice versa.
-
-# def convertBinaryToDecimal(binary):
-#     ''' Convert Binary number to Decimal number '''
-#     return int(binary, 2)
-    
-# def convertDecimalToBinary(decimal):
-#     ''' Convert Decimal number to Binary number '''
-#     return bin(decimal).replace("0b", "")
-
-# binaryNumber = input("\nEnter the binary number you want to convert to decimal:\t")
-# decimalNumber = input("Enter the decimal number you want to convert to binary:\t")
-
-# if binaryNumber.isdigit():
-#     print ("\nYour binary number is : ", convertBinaryToDecimal(binaryNumber))
-# else:
-#     print ("\nYour decimal number is : ", convertDecimalToBinary(int(decimalNumber)))
     
 # print('c =', a & b  )
 
 
 # * Example 3
-print('Bitwise AND: ', a & b)
-print('Bitwise OR :', a | b)
-print('Bitwise XOR:', a ^ b)
-print('Bitwise NOT:',  ~b)
+# print('Bitwise AND: ', a & b)
+# print('Bitwise OR :', a | b)
+# print('Bitwise XOR:', a ^ b)
+# print('Bitwise NOT:',  ~b)
 
 # &  Example 2.
 # print('\b a bitwise & (and) is : ', a & b)   # 14 & 17 => 14
