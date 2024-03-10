@@ -7,11 +7,12 @@
 This README file provides an overview of the different types of operators available in Python and their usage.
 
 ### Table of Contents
-
 - [Python Operators](#python-operators)
   - [Table of Contents](#table-of-contents)
     - [Arithmetic Operators ](#arithmetic-operators-)
     - [Comparison Operators](#comparison-operators)
+    - [Logical Operators](#logical-operators)
+      - [Figure 1](#figure-1)
 
 #### Arithmetic Operators <a name="arithmetic-operators"></a>
 
@@ -41,3 +42,15 @@ Also, are used to perform mathematical operations like addition, subtraction, mu
 | <>      | NotEqualTo(NotEqual operator)           | `3<>2+1`                                     | True   |
 | ==/!=/= | Equality / Inequality            | `3==2+1` , `3!=2+1` | False,True |   
 
+#### Logical Operators
+- The Logical operators are used to combine conditional statements, 
+- they work with Boolean (`True`/`False`) values and returns a single Boolean value.
+
+##### Figure 1
+|Operator | Meaning                   | Example     | Result |
+|---------|----------------------------|--------------|--------|
+| AND     | Return True if both are True | `x>5 and y<7`  | True  |
+| OR      | Return True if either is True | `x>5 or y<7`   | True  |
+| NOT     | Return True if expression is False | `not x>5`   | True  |
+
+**`Note:`** python provides three logical operators: `and`, `or`, and `not`.    
