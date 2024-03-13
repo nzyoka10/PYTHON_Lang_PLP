@@ -41,11 +41,11 @@ Sequence data types represent collections of items. The main sequence types in P
 
 Data type is crucial for efficient programming and memory usage, thus consider the following factors:
 
-- **Mutability**: Whether you need a mutable or immutable data type.
-- **Order**: Whether order matters or not.
-- **Uniqueness**: Whether duplicates are allowed or not.
-- **Performance**: Some data types may offer better performance for specific operations.
-- **Memory Usage**: Consider the memory requirements of different data types.
+- **Mutability**: do you need a mutable or immutable data type
+- **Order**: whether order matters or not.
+- **Uniqueness**: if duplicates are allowed or not.
+- **Performance**: some data types may offer better performance for specific operations.
+- **Memory Usage**: consider the memory requirements of different data types.
 
 
 ## Examples
