@@ -1,27 +1,70 @@
-## Week 3 - Python Control Flows and Functions
+## Week 3 - Control Flows and Functions
 
-### Introduction
-- This week's coding challenge focuses on basic control flows and functions. Two coding challenges are presented below:
+###### Python Control Flows and Functions
 
-###### 1. Large Power (Question 1)
-Create a method that tests whether the result of taking the power of one number to another number provides an answer which is greater than 5000. We will use a conditional statement to return True if the result is greater than 5000 or return False if it is not. In order to accomplish this, we will need the following steps:
+- Control flows and functions are essential concepts in Python programming that allow you to control the flow of execution and encapsulate reusable pieces of code. 
+- This **`README`** provides an overview of control flows and functions in Python, including their syntax, usage, and best practices.
 
-- Define the function to accept two input parameters called base and exponent.
-- Calculate the result of base to the power of exponent.
-- Use an if statement to test if the result is greater than 5000. If it is then return True. Otherwise, return False.
+## Control Flow Structures
 
-##### Task
-- To create a function named `large_power()` that takes two parameters named base and exponent.
-- If base raised to the exponent is greater than 5000, return True, otherwise return False.
+Python provides several control flow structures to execute code conditionally or iteratively:
 
-###### 2. Divisible By Ten (Question 2)
-Create a function that determines whether or not a number is divisible by ten. A number is divisible by ten if the remainder of the number divided by 10 is 0. Using this, we can complete this function in a few steps:
+- **if-elif-else**: Allows you to execute different blocks of code based on different conditions.
+- **for loop**: Iterates over a sequence (such as a list, tuple, or string) and executes a block of code for each item in the sequence.
+- **while loop**: Executes a block of code repeatedly as long as a specified condition is true.
+- **break and continue**: Allows you to control the flow of loops by breaking out of the loop or skipping the current iteration.
 
-- Define the function header to accept one input num.
-- Calculate the remainder of the input divided by 10 (use modulus).
-- Use an if statement to check if the remainder was 0. If the remainder was 0, return True, otherwise, return False.
+```python
+# Example of if-elif-else and for loop
+def classify_number(num):
+    """Classify a number as positive, negative, or zero."""
+    if num > 0:
+        print("Positive")
+    elif num < 0:
+        print("Negative")
+    else:
+        print("Zero")
 
-##### Task
-- To create a function called `divisible_by_ten()` that has one parameter named num.
+numbers = [1, -2, 0, 5, -10]
+for num in numbers:
+    classify_number(num)
 
-- The function should return True if num is divisible by 10, and False otherwise. Consider using modulo operator % to check for divisibility.
+# Example of while loop with break and continue
+num = 10
+while num > 0:
+    if num == 5:
+        num -= 1
+        continue
+    print(num)
+    if num == 3:
+        break
+    num -= 1
+```
+
+### Functions
+
+Functions allow you to encapsulate reusable pieces of code, making your programs more organized, modular, and easier to understand.
+
+###### Defining Functions
+- In python a function is defined using the **`def`** keyword followed by the ``function name`` and **parameters** `enclosed in parentheses`. 
+- The function body is then indented;-
+
+```python
+
+# Example 1
+# below function greets the user.
+def greet(name):
+    print(f"Hello, {name}!")
+
+#  calling the function
+greet(Eric)
+
+# ~ Example 2:
+# This function adds two numbers.
+def add(a, b):
+    return a + b
+
+result = add(3, 5)  # result will be 8
+print(result)
+
+```
