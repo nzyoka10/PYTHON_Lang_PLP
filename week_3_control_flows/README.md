@@ -1,4 +1,4 @@
-## Weekly Code Challenge - Week 3
+## Week 3 - Python Control Flows and Functions
 
 ### Introduction
 - This week's coding challenge focuses on basic control flows and functions. Two coding challenges are presented below:
