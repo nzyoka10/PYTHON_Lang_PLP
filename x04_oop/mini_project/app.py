@@ -34,3 +34,21 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+''' 
+    # class A:
+    #     def __init__(self, num):
+    #         self.num = num  # Corrected the initialization of num
+        
+    #     def change(self):
+    #         self.num = 7
+
+    # a = A(5)
+    # print(a.num)
+
+    # a.change()
+    # print(a.num)
+
+'''
