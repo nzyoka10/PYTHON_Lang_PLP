@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All members</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .conatiner{
+            background-color: #333;
+            margin: 12px;
+            padding: 30px;
+        }
+
+        h1{
+            color: tomato;
+            color: #fff;
+            text-decoration: 2px underline tomato;
+            /* border-bottom: 3px dotted; */
+        }
+
+        .list{
+            color: #fff;
+        }
+
+        .list ul li{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="conatiner">
+        
+        <h1>Members</h1>
+
+        <div class="list">
+            <ul>
+                {% for x in mymembers %}
+                <li>{{ x.firstname }} {{ x.lastname }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+    </div>
+    
+</body>
+</html>
