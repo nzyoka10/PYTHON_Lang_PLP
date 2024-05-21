@@ -1,7 +1,8 @@
 
 ## Week 2 -  Python Data Types 
-
-Python is a dynamically typed language, meaning you don't need to specify variable types explicitly. Python provides a wide range of built-in data types to handle different kinds of data. Understanding these data types is essential for effective programming. This README provides an overview of the main data types in Python.
+- Variables can store data of different types, and different types can do different things.
+- Python provides a wide range of built-in data types to handle different kinds of data.
+- Understanding these data types is essential for effective programming.
 
 ### 1. Numeric Types
 
